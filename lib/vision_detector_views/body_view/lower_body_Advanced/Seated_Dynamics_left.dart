@@ -58,18 +58,18 @@ class Detector_Seated_Dynamics_left implements Detector_default{
     print(posedata[32]!);
     if (this.startdDetector) {
       DetectorED = true;
-      this.orderText = "請身體往下";
+      this.orderText = "Body down";
       if (distance(posedata[24]!, posedata[25]!, posedata[52]!, posedata[53]!)<200
       ) {
         this.startdDetector = false;
-        this.orderText = "達標";
+        this.orderText = "finish";
         this.posecounter++;
         this.sounder(this.posecounter);
         posesounder(true);
       }
     } else if (DetectorED) {
       //預防空值被訪問
-      this.orderText = "請回正身體";
+      this.orderText = "Straighten your body";
       if (distance(posedata[24]!, posedata[25]!, posedata[52]!, posedata[53]!)>200) {
         //確認復歸
         this.startdDetector = true;

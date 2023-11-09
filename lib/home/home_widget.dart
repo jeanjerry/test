@@ -111,7 +111,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                         ],
                       ),
                       Text(
-                        '繼續努力加油!!!',
+                        'Fighting!!!',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Poppins',
                           fontSize: 30,
@@ -131,7 +131,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             ),
                           ),
                           Text(
-                              '$money1'+'個',
+                              '$money1',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -177,7 +177,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             padding:
                             EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
                             child: Text(
-                              '需求表達',
+                              'Need',
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
@@ -219,7 +219,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             padding:
                             EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
                             child: Text(
-                              '復健訓練',
+                              'Train',
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
@@ -261,7 +261,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             padding:
                             EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
                             child: Text(
-                              '諮詢社群',
+                              'Line',
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
@@ -302,9 +302,9 @@ class _HomeWidgetState extends State<HomeWidget> {
                           ),
                           Padding(
                             padding:
-                            EdgeInsetsDirectional.fromSTEB(100, 0, 0, 0),
+                            EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
                             child: Text(
-                              '設定',
+                              'Set',
                               textAlign: TextAlign.start,
                               style: FlutterFlowTheme.of(context)
                                   .titleMedium
@@ -343,7 +343,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             fit: BoxFit.cover,
                           ),
                           AutoSizeText(
-                            '返回',
+                            'return',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -376,7 +376,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             ),
                           ),
                           AutoSizeText(
-                            '使用紀錄',
+                            'history',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -409,7 +409,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             ),
                           ),
                           Text(
-                            '新通知',
+                            'notice',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -442,7 +442,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             ),
                           ),
                           Text(
-                            '關於',
+                            'about',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
