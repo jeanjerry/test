@@ -125,7 +125,7 @@ class _PoseDetectorViewState extends State<pose_view> {
                   ),
                 )).animate().slide(duration: 500.ms),
         ] else if (!global.Det.endDetector) ...[
-          Positioned(
+          /*Positioned(
             //計數器UI
             bottom: 10,
             right: -10,
@@ -152,9 +152,9 @@ class _PoseDetectorViewState extends State<pose_view> {
                 ),
               ),
             ),
-          ),
+          ),*/
           if (global.Det.timerui)
-            Positioned(
+            /*Positioned(
               //計時器UI
               bottom: 10,
               left: -10,
@@ -181,10 +181,10 @@ class _PoseDetectorViewState extends State<pose_view> {
                   ),
                 ),
               ),
-            ),
+            ),*/
           if ((global.posenumber >= 18 && global.posenumber <= 21) ||
               (global.posenumber >= 42 && global.posenumber <= 45)) ...[
-            Positioned(
+            /*Positioned(
               //提醒視窗
               left: 0,
               child: Container(
@@ -209,9 +209,9 @@ class _PoseDetectorViewState extends State<pose_view> {
                   ),
                 ),
               ),
-            ).animate().slide(duration: 500.ms),
+            ).animate().slide(duration: 500.ms),*/
           ] else ...[
-            Positioned(
+            /*Positioned(
               //提醒視窗
               bottom: 100,
               child: Container(
@@ -237,7 +237,7 @@ class _PoseDetectorViewState extends State<pose_view> {
                   ),
                 ),
               ),
-            ).animate().slide(duration: 500.ms),
+            ).animate().slide(duration: 500.ms),*/
           ]
         ],
         if (global.Det.endDetector)

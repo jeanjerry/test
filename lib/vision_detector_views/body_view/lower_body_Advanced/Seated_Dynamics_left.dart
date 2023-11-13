@@ -69,7 +69,7 @@ class Detector_Seated_Dynamics_left implements Detector_default{
       }
     } else if (DetectorED) {
       //預防空值被訪問
-      this.orderText = "Straighten your body";
+      this.orderText = "Straighten\nyour\nbody";
       if (distance(posedata[24]!, posedata[25]!, posedata[52]!, posedata[53]!)>200) {
         //確認復歸
         this.startdDetector = true;
